@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pnj.uts.aldy.pnj.uts.aldy.HomeActivity">
+
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/actionHome"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:paddingTop="10dp"-->
+<!--            android:paddingBottom="10dp"-->
+<!--            android:src="@android:drawable/ic_menu_gallery"-->
+<!--            android:tint="#D65353" />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/actionNotification"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:paddingTop="10dp"-->
+<!--            android:paddingBottom="10dp"-->
+<!--            android:src="@android:drawable/ic_dialog_info"-->
+<!--            android:tint="#D65353" />-->
+
+       <Button
+           android:id="@+id/actionHome"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="#333"
+           android:text="Home"
+        />
+
+        <Button
+            android:id="@+id/actionBerita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#333"
+            android:text="Berita"
+            />
+
+        <Button
+            android:id="@+id/actionProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#333"
+            android:text="Profile"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
